@@ -1,11 +1,10 @@
 # README #
 
-This is LAB 08 
+This is LAB 11 
 
 ### What is this repository for? ###
 
-* Lab 08 Experiment with a Cube and Vertex Buffers and +1.1 OpenGL extensions
-* Version 1.0
+* Lab 11 Experiment with a Cube Texturing
 
 ### How do I get set up? ###
 
@@ -34,9 +33,9 @@ http://www.sfml-dev.org/files/SFML-2.3.2-windows-vc14-32-bit.zip "SFML-2.3.2-win
 
 * Change to the projects directory by `cd projects`
 
-* Clone the project `git clone https://MuddyGames@bitbucket.org/MuddyGames/gameplay-programming-i-lab08.git`
+* Clone the project `git clone https://MuddyGames@bitbucket.org/MuddyGames/gameplay-programming-i-lab-11.git`
 
-* Change to the project directory `cd projects gameplay-programming-i-lab08`
+* Change to the project directory `cd projects gameplay-programming-i-lab-11`
 
 * List files that were downloaded `ls`
 
