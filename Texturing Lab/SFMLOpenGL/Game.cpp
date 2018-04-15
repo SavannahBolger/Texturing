@@ -57,10 +57,10 @@ GLuint	index,		//Index to draw
 		textureID,	//Texture ID
 		texelID;	// Texel ID
 
-//const string filename = "texture.tga";
-const string filename = "cube.tga";
+//const string filename = "minecraft.tga";
+//const string filename = "cube.tga";
 
-//const string filename = "texture.tga";
+const string filename = "texture.tga";
 
 int width; //width of texture
 int height; //height of texture
@@ -84,143 +84,143 @@ void Game::initialize()
 	/* Vertices counter-clockwise winding */
 	vertex[0].coordinate[0] = -0.2f;
 	vertex[0].coordinate[1] = -0.2f;
-	vertex[0].coordinate[2] = 0.0f;
+	vertex[0].coordinate[2] = 0.2f;
 
-	vertex[1].coordinate[0] = -0.2f;
-	vertex[1].coordinate[1] = 0.2f;
-	vertex[1].coordinate[2] = 0.0f;
+	vertex[1].coordinate[0] = 0.2f;
+	vertex[1].coordinate[1] = -0.2f;
+	vertex[1].coordinate[2] = 0.2f;
 
 	vertex[2].coordinate[0] = 0.2f;
 	vertex[2].coordinate[1] = 0.2f;
-	vertex[2].coordinate[2] = 0.0f;
+	vertex[2].coordinate[2] = 0.2f;
 
 	vertex[3].coordinate[0] = 0.2f;
 	vertex[3].coordinate[1] = 0.2f;
-	vertex[3].coordinate[2] = 0.0f;
+	vertex[3].coordinate[2] = 0.2f;
 
-	vertex[4].coordinate[0] = 0.2f;
-	vertex[4].coordinate[1] = -0.2f;
-	vertex[4].coordinate[2] = 0.0f;
+	vertex[4].coordinate[0] = -0.2f;
+	vertex[4].coordinate[1] = 0.2f;
+	vertex[4].coordinate[2] = 0.2f;
 
 	vertex[5].coordinate[0] = -0.2f;
 	vertex[5].coordinate[1] = -0.2f;
-	vertex[5].coordinate[2] = 0.0f;
+	vertex[5].coordinate[2] = 0.2f;
 
 	vertex[6].coordinate[0] = 0.2f;
 	vertex[6].coordinate[1] = -0.2f;
-	vertex[6].coordinate[2] = 0.0f;
+	vertex[6].coordinate[2] = 0.2f;
 
 	vertex[7].coordinate[0] = 0.2f;
-	vertex[7].coordinate[1] = 0.2f;
-	vertex[7].coordinate[2] = 0.0f;
+	vertex[7].coordinate[1] = -0.2f;
+	vertex[7].coordinate[2] = -0.2f;
 
 	vertex[8].coordinate[0] = 0.2f;
 	vertex[8].coordinate[1] = 0.2f;
-	vertex[8].coordinate[2] = 0.2f;
+	vertex[8].coordinate[2] = -0.2f;
 
 	vertex[9].coordinate[0] = 0.2f;
 	vertex[9].coordinate[1] = 0.2f;
-	vertex[9].coordinate[2] = 0.2f;
+	vertex[9].coordinate[2] = -0.2f;
 
 	vertex[10].coordinate[0] = 0.2f;
-	vertex[10].coordinate[1] = -0.2f;
+	vertex[10].coordinate[1] = 0.2f;
 	vertex[10].coordinate[2] = 0.2f;
 
 	vertex[11].coordinate[0] = 0.2f;
 	vertex[11].coordinate[1] = -0.2f;
-	vertex[11].coordinate[2] = 0.0f;
+	vertex[11].coordinate[2] = 0.2f;
 
 	vertex[12].coordinate[0] = 0.2f;
 	vertex[12].coordinate[1] = -0.2f;
-	vertex[12].coordinate[2] = 0.2f;
+	vertex[12].coordinate[2] = -0.2f;
 
-	vertex[13].coordinate[0] = 0.2f;
-	vertex[13].coordinate[1] = 0.2f;
-	vertex[13].coordinate[2] = 0.2f;
+	vertex[13].coordinate[0] = -0.2f;
+	vertex[13].coordinate[1] = -0.2f;
+	vertex[13].coordinate[2] = -0.2f;
 
 	vertex[14].coordinate[0] = -0.2f;
 	vertex[14].coordinate[1] = 0.2f;
-	vertex[14].coordinate[2] = 0.2f;
+	vertex[14].coordinate[2] = -0.2f;
 
 	vertex[15].coordinate[0] = -0.2f;
 	vertex[15].coordinate[1] = 0.2f;
-	vertex[15].coordinate[2] = 0.2f;
+	vertex[15].coordinate[2] = -0.2f;
 
-	vertex[16].coordinate[0] = -0.2f;
-	vertex[16].coordinate[1] = -0.2f;
-	vertex[16].coordinate[2] = 0.2f;
+	vertex[16].coordinate[0] = 0.2f;
+	vertex[16].coordinate[1] = 0.2f;
+	vertex[16].coordinate[2] = -0.2f;
 
 	vertex[17].coordinate[0] = 0.2f;
 	vertex[17].coordinate[1] = -0.2f;
-	vertex[17].coordinate[2] = 0.2f;
+	vertex[17].coordinate[2] = -0.2f;
 
 	vertex[18].coordinate[0] = -0.2f;
 	vertex[18].coordinate[1] = -0.2f;
-	vertex[18].coordinate[2] = 0.2f;
+	vertex[18].coordinate[2] = -0.2f;
 
 	vertex[19].coordinate[0] = -0.2f;
-	vertex[19].coordinate[1] = 0.2f;
+	vertex[19].coordinate[1] = -0.2f;
 	vertex[19].coordinate[2] = 0.2f;
 
 	vertex[20].coordinate[0] = -0.2f;
 	vertex[20].coordinate[1] = 0.2f;
-	vertex[20].coordinate[2] = 0.0f;
+	vertex[20].coordinate[2] = 0.2f;
 
 	vertex[21].coordinate[0] = -0.2f;
 	vertex[21].coordinate[1] = 0.2f;
-	vertex[21].coordinate[2] = 0.0f;
+	vertex[21].coordinate[2] = 0.2f;
 
 	vertex[22].coordinate[0] = -0.2f;
-	vertex[22].coordinate[1] = -0.2f;
-	vertex[22].coordinate[2] = 0.0f;
+	vertex[22].coordinate[1] = 0.2f;
+	vertex[22].coordinate[2] = -0.2f;
 
 	vertex[23].coordinate[0] = -0.2f;
 	vertex[23].coordinate[1] = -0.2f;
-	vertex[23].coordinate[2] = 0.2f;
+	vertex[23].coordinate[2] = -0.2f;
 
 	vertex[24].coordinate[0] = -0.2f;
 	vertex[24].coordinate[1] = 0.2f;
-	vertex[24].coordinate[2] = 0.0f;
+	vertex[24].coordinate[2] = 0.2f;
 
-	vertex[25].coordinate[0] = -0.2f;
+	vertex[25].coordinate[0] = 0.2f;
 	vertex[25].coordinate[1] = 0.2f;
 	vertex[25].coordinate[2] = 0.2f;
 
 	vertex[26].coordinate[0] = 0.2f;
 	vertex[26].coordinate[1] = 0.2f;
-	vertex[26].coordinate[2] = 0.2f;
+	vertex[26].coordinate[2] = -0.2f;
 
 	vertex[27].coordinate[0] = 0.2f;
 	vertex[27].coordinate[1] = 0.2f;
-	vertex[27].coordinate[2] = 0.2f;
+	vertex[27].coordinate[2] = -0.2f;
 
-	vertex[28].coordinate[0] = 0.2f;
+	vertex[28].coordinate[0] = -0.2f;
 	vertex[28].coordinate[1] = 0.2f;
-	vertex[28].coordinate[2] = 0.0f;
+	vertex[28].coordinate[2] = -0.2f;
 
 	vertex[29].coordinate[0] = -0.2f;
 	vertex[29].coordinate[1] = 0.2f;
-	vertex[29].coordinate[2] = 0.0f;
+	vertex[29].coordinate[2] = 0.2f;
 
 	vertex[30].coordinate[0] = -0.2f;
 	vertex[30].coordinate[1] = -0.2f;
-	vertex[30].coordinate[2] = 0.5f;
+	vertex[30].coordinate[2] = 0.2f;
 
-	vertex[31].coordinate[0] = -0.2f;
+	vertex[31].coordinate[0] = 0.2f;
 	vertex[31].coordinate[1] = -0.2f;
-	vertex[31].coordinate[2] = 0.0f;
+	vertex[31].coordinate[2] = 0.2f;
 
 	vertex[32].coordinate[0] = 0.2f;
 	vertex[32].coordinate[1] = -0.2f;
-	vertex[32].coordinate[2] = 0.0f;
+	vertex[32].coordinate[2] = -0.2f;
 
 	vertex[33].coordinate[0] = 0.2f;
 	vertex[33].coordinate[1] = -0.2f;
-	vertex[33].coordinate[2] = 0.0f;
+	vertex[33].coordinate[2] = -0.2f;
 
-	vertex[34].coordinate[0] = 0.2f;
+	vertex[34].coordinate[0] = -0.2f;
 	vertex[34].coordinate[1] = -0.2f;
-	vertex[34].coordinate[2] = 0.2f;
+	vertex[34].coordinate[2] = -0.2f;
 
 	vertex[35].coordinate[0] = -0.2f;
 	vertex[35].coordinate[1] = -0.2f;
